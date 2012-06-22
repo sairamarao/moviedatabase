@@ -9,7 +9,7 @@
            if (!response || response.error) {
               alert('Error occured');
            } else {
-              alert(' was successful! Action ID: ' + response.id);
+              alert('Create was successful! Action ID: ' + response.id);
            }
         });
   }
@@ -36,7 +36,7 @@
   </script>
   
   
-  <fb:login-button show-faces="true" width="200" max-rows="1" scope="publish_actions">
+  <fb:login-button show-faces="true" width="250" max-rows="1" scope="publish_actions">
   </fb:login-button>
   
 <%= form_for(@movie) do |f| %>
@@ -65,6 +65,6 @@
     <%= f.text_field :genre %>
   </div>
   <div class="actions" align="center">
-    <%= f.submit  :onclick => "sample();" %>
+    <%= f.submit  :onclick => "postCreate();" %>
   </div>
 <% end %>
