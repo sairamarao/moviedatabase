@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# video: http://ogp.me/ns/video#">>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# video: http://ogp.me/ns/video#">
+
+  <meta property="fb:app_id"      content="375233595877289" /> 
+  <meta property="og:type"        content="video.movie" /> 
+  <meta property="og:url"         content="http://hollow-galaxy-1881.herokuapp.com/movies/new" /> 
+  <meta property="og:title"       content=" a new movie " /> 
+  <meta property="og:image"       content="http://www.fulwood-cadley.lancsngfl.ac.uk/images/library/Classes/Class%209/gifs/movie-logo3.jpg" /> 
+  <meta property="og:description" content="Interesting Movies" /> 
   <title>Mymovies</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
