@@ -7,7 +7,7 @@
         { cinema: 'http://hollow-galaxy-1881.herokuapp.com/movies/new' },
         function(response) {
            if (!response || response.error) {
-              alert('Error occured');
+              alert(response.error);
            } else {
               alert('Create was successful! Action ID: ' + response.id);
            }
