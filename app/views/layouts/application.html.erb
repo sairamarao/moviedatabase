@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html>
-<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# video: http://ogp.me/ns/video#">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
+ <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# mymoviesdeploying: http://ogp.me/ns/fb/mymoviesdeploying#">
+<title>My Movies</title>
+  
+  <meta property="fb:app_id" content="375233595877289" /> 
+  <meta property="og:type"   content="mymoviesdeploying:film" /> 
+  <meta property="og:url"    content="http://hollow-galaxy-1881.herokuapp.com/movies/new" /> 
+  <meta property="og:title"  content=" Film" /> 
+  <meta property="og:image"  content="http://www.fulwood-cadley.lancsngfl.ac.uk/images/library/Classes/Class%209/gifs/movie-logo3.jpg" /> 
 
-  <meta property="fb:app_id"      content="375233595877289" /> 
-  <meta property="og:type"        content="video.movie" /> 
-  <meta property="og:url"         content="http://hollow-galaxy-1881.herokuapp.com/movies/new" /> 
-  <meta property="og:title"       content=" Movie " /> 
-  <meta property="og:image"       content="http://www.fulwood-cadley.lancsngfl.ac.uk/images/library/Classes/Class%209/gifs/movie-logo3.jpg" /> 
-  <meta property="og:description" content="Interesting Movies" /> 
-  <title>My Movies</title>
+  
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
