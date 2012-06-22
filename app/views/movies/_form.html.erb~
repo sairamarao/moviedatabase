@@ -4,7 +4,7 @@
       FB.api(
         '/me/mymoviesdeploying:create',
         'post',
-        { movie: 'http://hollow-galaxy-1881.herokuapp.com/movies/new' },
+        { cinema: 'http://hollow-galaxy-1881.herokuapp.com/movies/new' },
         function(response) {
            if (!response || response.error) {
               alert('Error occured');
