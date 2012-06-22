@@ -4,5 +4,4 @@
 <%= render 'form' %>
 <div id="footer">
 
-<%= link_to 'Back', movies_path , {:style => 'color:#B45F04;' }%>
-</div>
+<%= link_to 'Back', movies_path %>

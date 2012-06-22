@@ -3,9 +3,7 @@ Moviedatabase::Application.routes.draw do
 
   get "reviews/destroy"
 
-  resources :movies do
-  resources :reviews
-  end
+  resources :movies
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

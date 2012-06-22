@@ -23,7 +23,7 @@
     </div>
     <%= f.text_field :genre %>
   </div>
-  <div class="actions" align="center">
+  <div class="actions" a>
     <%= f.submit %>
   </div>
 <% end %>

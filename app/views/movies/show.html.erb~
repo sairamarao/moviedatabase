@@ -31,7 +31,5 @@
 <p>
 <%= link_to 'Back', movies_path ,{:style => 'color:#B45F04;' }%>|
 <%= link_to 'Edit', edit_movie_path(@movie),{:style => 'color:#B45F04' } %> |
-<%= link_to "Delete",[@movie],:method=>:delete,:class=>"review",:confirm=>"Are you sure?" %>
-</p>
-
+<%= link_to "Delete",[@movie],:metho
 

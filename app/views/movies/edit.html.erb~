@@ -2,6 +2,6 @@
 <%= stylesheet_link_tag 'mystyles' %>
 <%= render 'form' %>
 <div id="footer">
-<%= link_to 'Show', @movie, {:style => 'color:#B45F04;' }%> |
+<%= link_to 'Show', @movie, {;style => 'color:#B45F04;' }%> |
 <%= link_to 'Back', movies_path ,{:style => 'color:#B45F04;' }%>
 </div>

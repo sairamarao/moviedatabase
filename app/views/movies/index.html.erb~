@@ -39,7 +39,7 @@ There are no movies at present :(
 </table>
 <br/>
 <% end %>
-<div id="footer">
+<div id="foter">
 <p>
 	<%= link_to "Add New Movie", new_movie_path,{:style=>'color:#B45F04;'} %>
 </p>

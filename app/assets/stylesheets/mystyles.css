@@ -1,0 +1,44 @@
+body{
+background-color:#4c4646;
+}
+h1{
+color:#d8d8d8;
+}
+#footer{
+	text-align: center;
+	height: 50px;
+	clear: both;
+	font:Bold 13pt Tahoma;
+	}
+#col_names{
+	text-align:center;
+	font:Bold 16pt Tahoma;
+	color: #B45F04;
+	}
+#gen{
+	color:#e6e6e6;
+	font:14pt Arial;
+	}
+#t{
+	color:#e6e6e6
+  }
+#tab{
+	font: 14pt Arial;
+	}
+h2{
+	font: Bold 16pt Tahoma;
+	color: #B45F04;
+	}
+h3{
+	color:#B45F04;
+	}
+.revew{
+color:#e6e6e6;
+} 
+ 
+ 
+ 
+ 
+ 
+	
+	
