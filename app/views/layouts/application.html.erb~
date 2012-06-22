@@ -3,13 +3,11 @@
       xmlns:fb="https://www.facebook.com/2008/fbml">
  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# mymoviesdeploying: http://ogp.me/ns/fb/mymoviesdeploying#">
 <title>My Movies</title>
-  
- <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# mymoviesdeploying: http://ogp.me/ns/fb/mymoviesdeploying#">
   <meta property="fb:app_id" content="375233595877289" /> 
   <meta property="og:type"   content="mymoviesdeploying:cinema" /> 
-  <meta property="og:url"    content="" /> 
+  <meta property="og:url"    content="http://hollow-galaxy-1881.herokuapp.com/movies/new" /> 
   <meta property="og:title"  content="Sample Cinema" /> 
-  <meta property="og:image"  content="https://s-static.ak.fbcdn.net/images/devsite/attachment_blank.png" /> 
+  <meta property="og:image"  content="https://blazing-water-5452.herokuapp.com" /> 
 
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
