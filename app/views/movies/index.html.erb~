@@ -1,3 +1,7 @@
+
+
+
+
 <h1 align="center">Movie Reviews</h1>
 <h3 align="center">Movie Reviews allows you to enter your movies what you have seen today and write a review on that so that you can refer to it later!!!</h3>
 <%= stylesheet_link_tag 'mystyles' %>
@@ -39,7 +43,7 @@ There are no movies at present :(
 </table>
 <br/>
 <% end %>
-<div id="foter">
+<div id="footer">
 <p>
 	<%= link_to "Add New Movie", new_movie_path,{:style=>'color:#B45F04;'} %>
 </p>
